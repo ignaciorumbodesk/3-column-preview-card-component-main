@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+    width: 770px;
+    margin: 8% auto;
+}
+
+section {
+    height: 200px;
+}
+
+#sedans, #suvs, #luxury {
+    color:  hsl(0, 0%, 100%);
+    width: 255px;
+}
+
+
+#sedans h2, #suvs h2, #luxury h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#sedans p, #suvs p, #luxury p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    border: 0px solid #000000
+}
+
+#sedans .vehicle-image {
+    padding:35px 0;
+}
+
+#sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+
+#suvs .vehicle-image {
+    padding:35px 0px;
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 10px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    border: 0px solid #000000
+}
+
+#luxury .vehicle-image {
+    padding:35px 0px;
+}
+
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.container {
+    margin: 0px auto;
+    width: 82%;
+}
+
+button {
+    border-radius:25px 25px 25px 25px;
+    background-color: hsl(0, 0%, 95%);
+    margin-bottom:60px;
+    padding: 10px 30px;
+    border: 0px solid;
+}
+
+.scaled {
+    transform: translateX(-8px);
+}
