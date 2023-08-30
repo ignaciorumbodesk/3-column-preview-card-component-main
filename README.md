@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot 2023-08-30 at 08-27-47 Frontend Mentor 3-column preview card component.png)
+![Screenshot 2023-08-30 at 08-27-47 Frontend Mentor 3-column preview card component.png](./Screenshot 2023-08-30 at 08-27-47 Frontend Mentor 3-column preview card component.png)
 
 
 ### Links
